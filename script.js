@@ -2,6 +2,7 @@ const caixaPrincipal = document.querySelector('.caixa-principal');
 const caixaPergunta = document.querySelector('.caixa-pergunta');
 const caixaAlternativa = document.querySelector('.caixa-alternativa');
 const caixaResultado = document.querySelector('.caixa-resultado');
+const textoResultado = document.querySelector('.texto-resultado');
 
 const perguntas = [//abre a lista de objetos (itens)
     {//abre o item
@@ -74,7 +75,7 @@ function respostasSelecionadas(opcaoSelecionada){
     mostraPergunta();
 }
 function mostraResultado(){
-    caixaPergunta.textContent = "Confira suas respostas: ";
+    caixaPergunta.textContent = "Em 25 anos ";
     textoResultado.textContent = respostas;
     caixaAlternativa.textContent = ""
 }
