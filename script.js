@@ -23,11 +23,11 @@ const perguntas = [//abre a lista de objetos (itens)
         alternativas:[ {
 
             texto: "Sim",
-            afirmação: "Já assisti"
+            afirmação: "Já assisti."
       },
       {
             texto: "Não",
-            afirmação: "Nunca assisti"
+            afirmação: "Nunca assisti."
       }    
        ]
     },
